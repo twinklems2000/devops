@@ -1,0 +1,1 @@
+use indent-rainbow extension vs code for yaml file indentation properly
