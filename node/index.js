@@ -8,6 +8,12 @@ app.get('/', (req, res) => {
   })
 })
 
+app.get('/login', (req, res) => {
+  res.json({
+    hey: 'Login Successfull, Repunzel 👩‍🔧',
+  })
+})
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
